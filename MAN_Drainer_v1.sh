@@ -1,6 +1,6 @@
 #!/bin/bash
 echo ""
-echo "This Script donates 0.1 % (1 MAN for every 100 MAN moved)"
+echo "This Script donates 0.1 % (1 MAN for every 1000 MAN moved)"
 echo "If you dont agree, stop the script now with Control + C"
 echo "If you agree,"
 read -p "Press Enter to continue"
