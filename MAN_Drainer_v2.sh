@@ -425,16 +425,16 @@ FCT.Donate_and_Transfer () {
 
 FCT.Hello
 
+echo "Transfer addres is "$MAN0
+echo "Decrypting Donating address will start after this confirmation"
+echo "Do you agree ? If NO, press CTRL+C to cancel, if you agree,"
+read -p "Press Enter to continue!"
+
 Duration=5
 echo "In "$Duration" seconds decrypting the Donator Address will start"
 seq 1 $Duration | while read i; do echo -en "\r$i seconds..." && sleep 1; done
 echo""
 FCT.Decryptor
-
-echo "Donation and Trimming address is computed"
-echo "Transfer addres is "$MAN0
-echo "Do you agree ? If NO, press CTRL+C to cancel, if you agree,"
-read -p "Press Enter to continue!"
 
 STrimming1=1
 #TRIMMING PART =================================================================
